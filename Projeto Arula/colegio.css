@@ -1,0 +1,94 @@
+html{
+    /*background-image: linear-gradient(#090944,#11117e);*/
+    font-family: "Merriweather", serif;
+}
+
+body {
+    background: #090944;
+    margin:0px 2px 0px 2px;
+}
+
+.cabecalho {
+    background-color: #FFCD29;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.menu {
+    width: 18px;
+    height: 18px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.nome-colégio {
+    display: inline;
+    font-size: 22px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.escura {
+    filter: brightness(0.4);
+  }
+
+.img {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 0px;
+    padding-right: 100px;
+    width: 120%;
+}
+
+.img-colegio1 {
+    width: 28%;
+}
+
+.img-colegio2 {
+    width: 32.3%;
+}
+
+.caixa-texto {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #FFCD29;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100px;
+    height: 18px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.alurastart {
+    padding-top: 20px;
+}
+
+.texto {
+    color: white;
+    padding: 10px 2px 5px 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFCD29;
+    padding: 10px;
+    text-align: center;
+}
+
